@@ -1,83 +1,156 @@
-# ⚡ TechTonic 2.0
+# 🌐 TechTonic 2.0 — Web Development Wing
 
-**TechTonic** is the official **First-Year Training & Practice Repository of OpenCode**.  
-It is designed to onboard beginners into real open-source workflows through guided, wing-specific tasks.
+**First-Year Training Repository | OpenCode**
 
----
-
-## 🎯 Objective
-
-TechTonic exists to:
-
-- Build strong development fundamentals in every domain 
-- Teach basic principals, techonology and techniques used in popular domains  
-- Prepare contributors for advanced OpenCode repositories  
+> Learn Web Development the **right way** — through structured tasks, clean workflows, and mentor-verified contributions.
 
 ---
 
-## 🧩 Who Can Contribute?
+## 🎯 Purpose of WebDev Wing
 
-- 👶 **First Year Contributors Only**  
-- Beginner-friendly, mentor-guided  
-- Strictly verified through OpenCode  
+This wing is designed to help **first-year students**:
 
----
+- Understand how real frontend projects are structured
+- Learn HTML, CSS, JavaScript fundamentals (no frameworks first)
+- Practice Git + GitHub workflows in a safe environment
+- Prepare for advanced OpenCode Web repositories
 
-## 🌿 Wing-Wise Branch Structure
-
-TechTonic follows a **branch-based wing system**:
-
-| Wing | Branch |
-|-----|------|
-| Web Development | `webdev` |
-| App Development | `appdev` |
-| AI / ML | `aiml` |
-| Design | `design` |
-| CC Wing | `competitive` |
-| Cybersec | `cybersec` |
-| Blockchain | `blockchain` |
-| Game Development | `gamedev` |
-| FOSS | `foss` |
-
-Each branch will have:
-
-- 4–5 beginner-friendly issues  
-- Starter project code  
-- Wing-specific instructions  
-
-> ⚠️ The `main` branch does not contain project code.  
-> All development must happen inside your respective wing branch.
+This is **not a tutorial repo**.
+This is **training through contribution**.
 
 ---
 
-## 🛠 How to Contribute
+## 👥 Who Can Contribute?
 
-1️⃣ Go to the **Issues** tab  
-2️⃣ Select the issue you want to solve  
-3️⃣ Carefully read the issue description to check **which wing branch it belongs to**  
-4️⃣ Fork this repository  
-5️⃣ **Do NOT fork only the `main` branch**  
-   – You must also fetch and work on the **specified wing branch**  
-6️⃣ Switch to the required wing branch (`webdev`, `appdev`, `aiml`, etc.)  
-7️⃣ Complete your solution **only inside that branch**  
-8️⃣ Open your Pull Request to the same wing branch  
-9️⃣ Wait for mentor review & merge  
+- ✅ **First-year students only**
+- ✅ Verified OpenCode contributors
+- ❌ Seniors / external contributors are not allowed
 
-> ❌ PRs opened to the `main` branch or created by copying only the `main` branch will be rejected.
+Any violation → PR closed without review.
+
+---
+
+## 🌿 Branch Rules (VERY IMPORTANT)
+
+| Branch   | Purpose                   |
+| -------- | ------------------------- |
+| `webdev` | All Web Development tasks |
+| `main`   | ❌ No project code        |
+
+⚠️ **Rules**
+
+- All work must happen **only in `webdev`**
+- PRs to `main` will be **rejected**
+- Copying only the `main` branch = ❌ invalid contribution
+
+---
+
+## 📁 Project Structure
+
+```
+TechTonic-2.0/
+│
+├── webdev/
+│   ├── contributors/
+│   │   ├── <your-enrollment-number>/
+│   │   │   └── task-XX/
+│   │
+│   ├── starter_files/
+│   │   ├── task-01/
+│   │   ├── task-02/
+│   │   ├── task-03/
+│   │   ├── task-04/
+│   │   └── ...
+│   │
+│   ├── FAQs.md     ← WebDev Wing FAQ
+│   └── README.md   ← You are here
+```
+
+### 📌 Explanation
+
+- `starter_files/` → contains **starter files**
+- `contributors/` → contributors work **inside their own folder only**
+
+---
+
+## 🛠️ Contribution Workflow (Step-by-Step)
+
+- 0️⃣ Go to the **Issues** tab
+- 1️⃣ Choose a WebDev issue
+- 2️⃣ Read the issue carefully (task number & instructions)
+- 3️⃣ Fork the repository
+- 4️⃣ Fetch **all branches**
+- 5️⃣ Checkout the `webdev` branch
+- 6️⃣ Create your folder inside `contributors/<your-enrollment-number>/`
+- 7️⃣ Solve the task **only inside your folder**
+- 8️⃣ Commit with clear messages
+- 9️⃣ Open a PR → **base branch: `webdev`**
+- 🔟Wait for mentor review
+
+---
+
+## ❌ Common PR Mistakes (Avoid These)
+
+- ❌ Wrong branch
+- ❌ Modifying `tasks/` directly
+- ❌ Extra unrelated files
+- ❌ AI-generated explanations
+
+→ PR will be rejected
+
+---
+
+## 🧪 Evaluation Criteria
+
+PRs are reviewed based on:
+
+- Correct branch usage
+- Clean and readable code
+- Conceptual understanding
+- Commit quality
+- Following task instructions
+
+You **may be asked to explain your code** during review.
+
+---
+
+## ⚠️ Code Ethics & Plagiarism
+
+- ❌ Copy-paste from blogs / YouTube / AI tools
+- ❌ Blind usage of frameworks
+- ❌ One-line PRs without explanation
+
+✅ References are allowed **for understanding only**
+
+> If your code looks suspicious, mentors may ask for justification.
 
 ---
 
 ## 🆘 Need Help?
 
-Each wing branch will have its **own README file** which contains:
+Check the following **in order**:
 
-- Branch-specific guidelines  
-- The **Discord IDs of the respective maintainers/mentors**  
+1. Task `README.md` inside `tasks/`
+2. WebDev Docs / FAQ (if provided)
+3. TechTonic Discussion Channel on Discord
 
-If you are stuck, confused, or need clarification — directly contact the maintainers mentioned in your wing branch README.
-
-> ⚠️ Do not DM random mentors. Always use the Discord IDs mentioned in your branch README.
+📢 **Do NOT DM random mentors**
 
 ---
 
-> *Learn. Build. Rise.* 🚀
+## 👨‍🏫 WebDev Mentors
+
+| Name               | Discord Username |
+| ------------------ | ---------------- |
+| Shubham Kumar Sahu | `@pookie_omen`   |
+| Aryan Saini        | `@ryandunno4146` |
+| Vaidik Khathal     | `@vaidik.19`     |
+| Mishti Garg        | `@mishti0177`    |
+
+_(Only contact mentors listed above through official channels.)_
+
+---
+
+> _Build fundamentals. Not shortcuts._ 🚀
+
+---
