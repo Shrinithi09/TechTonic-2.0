@@ -1,16 +1,16 @@
 # Contributor Introduction
 
-## Name & Roll No  
-Himanshu Kumar IIT2025128
+## Name & Roll No
+Himanshu Kumar
 
-## GitHub Username  
+## GitHub Username
 [@himanshu-kumar-web](https://github.com/himanshu-kumar-web)
 
-## Who is Your Tech Parent?  
-My tech parent is Aryan Pandey sir
+## Who is Your Tech Parent?
+Aryan Pandey Sir
 
-## Favorite Senior  
-Everyone is good
+## Favorite Senior
+Everyone is good hard to pick one
 
-## Interests  
-I like to play cricket
+## Interests
+Cricket,listening to music
