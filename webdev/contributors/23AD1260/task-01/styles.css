@@ -1,1 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.why-techtonic {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+.why-techtonic h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+
+.why-techtonic p {
+  line-height: 1.7;
+  color: #555;
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .why-techtonic {
+    margin: 30px 10px;
+    padding: 20px 15px;
+  }
+}
 
